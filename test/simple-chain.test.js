@@ -27,13 +27,13 @@ describe("Make chain!", () => {
     it.optional("chaining works!", () => {
       assert.deepEqual(
         chainMaker
-          .addLink(function () {})
+          .addLink(function () { })
           .addLink("2nd")
           .addLink("3rd")
           .removeLink(2)
           .reverseChain()
           .finishChain(),
-        "( 3rd )~~( function () {} )"
+        "( 3rd )~~( function () { } )"
       );
     });
 
