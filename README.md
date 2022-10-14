@@ -320,7 +320,7 @@ Write your code in `src/vigenere-cipher.js`.
 ### **(ST) Common character count**
 
 Your task is to implement function that accepts two **strings** (`s1` and `s2`) and returns **number** of common characters between them.
-
+Ваша задача состоит в том, чтобы реализовать функцию, которая принимает две ** строки ** (`s1` и` s2`) и возвращает ** число ** общих символов между ними.
 For example:
 
 `getCommonCharacterCount('aabcc', 'adcaa')` => `3`
@@ -332,7 +332,7 @@ Write your code in `src/common-character-count.js`.
 ### **(ST) Delete digit**
 
 Your task is to implement function that accepts **integer number** (`n`) and returns maximal **number** you can obtain by deleting exactly one digit of the given number.
-
+может получить, удалив ровную цифру данного числа.
 For example:
 
 `deleteDigit(152) => 52`
@@ -430,17 +430,17 @@ In the popular Minesweeper game you have a board with some mines and cells that 
 For example:
 
 ```
-const matrix = [
- [true, false, false],
- [false, true, false],
- [false, false, false]
-];
+  const matrix = [
+  [true, false, false],
+  [false, true, false],
+  [false, false, false]
+  ];
 
-minesweeper(matrix) => [
- [1, 2, 1],
- [2, 1, 1],
- [1, 1, 1]
-];
+  minesweeper(matrix) => [
+  [1, 2, 1],
+  [2, 1, 1],
+  [1, 1, 1]
+  ];
 ```
 
 Write your code in `src/mine-sweeper.js`.
